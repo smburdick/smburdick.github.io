@@ -1,8 +1,8 @@
 html {
-  background-color:#e8e0d0;
+  background-color: #e8e0d0;
 }
 p0 {
-  color:#4298f4;
+  color: #4298f4;
   font-size: 20px;
   font-style:italic;
 }
@@ -23,11 +23,9 @@ body {
 	font-weight: 500;
 	line-height: 26.4px;
 }
-img {
-  width:400px;
-}
 #depth_test {
-  float:right;
+  float: right;
+  width: 400px;
 }
 #logo_link {
   width: 50px;
