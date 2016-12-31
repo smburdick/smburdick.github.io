@@ -30,3 +30,11 @@ body {
 #logo_link {
   width: 60px;
 }
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  background:#eeeeee;
+  color:black;
+}
