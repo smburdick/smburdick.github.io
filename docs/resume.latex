@@ -1,0 +1,80 @@
+\documentclass[11pt]{article}
+\title{resume}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{charter}
+\def\labelitemi{+}
+\topmargin=-0.3in
+\oddsidemargin=-0in
+\evensidemargin=0in
+\textwidth=6.5in %How wide you want your text to be
+\marginparwidth=0.5in
+\headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
+\headsep=0pt %Increase to increase white space in between headers and the top of the page
+\textheight=9.0in %How tall the text body is allowed to be on each page
+\pagenumbering{gobble}
+\newcommand\phv{\fontfamily{phv}\selectfont}
+\newcommand\qcr{\fontfamily{qcr}\selectfont}
+\begin{document}
+% TODO: eliminate passive voice AMAP,
+\centerline{{\Huge \bf \phv{Sam Burdick}}}    % (want sc?)
+\noindent\\
+\centerline{
+{\textcolor{blue}{\href{https://smburdick.github.io/}{Website}} \hspace{1.5pt} $|$ \hspace{1.5pt}
+\textcolor{blue}{\href{https://github.com/smburdick}{GitHub}}
+}}
+\centerline{{smburdick@pugetsound.edu}}
+ % TODO: align links + email on one line?
+%\centerline{1234 Generic St. \textbullet \hspace{5pt}   Boulder, CO 80303 \textbullet \hspace{5pt}   (555) 555-0198}
+% \\\noindent\line(1,0){470}
+\\\\
+\noindent {\LARGE \bf \phv{Summary}}   %Don’t indent this line and make it bold and large
+\medskip\\
+\noindent
+% \bigskip %This makes a large line-skip (\smallskip is also a command but has a smaller gap
+% \\
+% \noindent{\Large \bf Executive Summary}
+% \\\\
+% \smallskip
+% \noindent
+Upcoming graduate in Computer Science pursuing a strong mathematical foundation and practical development experience. My contributions to solving programming problems with teams and individuals make me a highly qualified software developer candidate. \\\\
+\smallskip
+\noindent{\LARGE \bf \phv{Work Experience} }  \medskip\\
+\noindent \centerline{\large \bf {\textcolor{blue}{\href{https://tmfsa.herokuapp.com/}{AUTOMATA}} Environment app development \hfill  }}
+\\\emph{Dec. 2016 - present}
+\begin{itemize}
+\item Implementing editing features to enhance the user experience of \textcolor{blue}{\href{http://mathcs.pugetsound.edu/~tmullen/}{Tony Mullen}}'s hands-on automaton theory learning MEAN.js app
+% \item Gaining practice writing code to specifications
+\end{itemize}
+\noindent \centerline{\large \bf Online {\textcolor{blue}{\href{https://smburdick.github.io/threejs-raytracer}{Ray Tracer}} \hfill }}
+\\\emph{Computer Graphics final project. Dec. 2016}
+\begin{itemize}
+	\item Wrote a browser ray tracer from scratch using THREE.js and implemented depth of field, soft shadows, and antialiasing features, aided by my linear algebra experience
+\end{itemize}
+\noindent \centerline{\large \bf Intro to Computer Science Teaching Assistant \hfill }
+\\\emph{University of Puget Sound. Sept. 2016 - present}
+\begin{itemize}
+  \item I answer questions in weekly lab sessions, grade Java assignments, and help ensure student success in walk-in tutoring hours
+  \item Developed communication skills from interacting with students and coordinating with the instructor to ensure students' success in and satisfaction with the course
+\end{itemize}
+\noindent \centerline{\large \bf Independent Contractor for Coffee Production Application \hfill }
+\\\emph{Candace Research, Lynnwood, WA. Jun. 2016}
+\begin{itemize}
+  \item Generates and displays data reports pertinent to coffee producers using Visual C\# and MySQL
+  \item Obtained software solutions with team members in Lynnwood and Addis Ababa for an importer and distributor of Ethiopian coffee
+\end{itemize}
+% \noindent\centerline{\large\bf }
+\noindent \centerline{\large \bf ``Schedule Master'' web app development \hfill }
+\\\emph{Software Engineering course group project. May 2016}
+\begin{itemize}
+  \item My team created a MEAN.js app that helps students find their classes on campus
+  \item Designed and implemented the course info database and the user class selection interface
+  \item Gained leadership by providing UI design oversight and task prioritization when we weren't making deadlines
+\end{itemize}
+\noindent{\LARGE \bf \phv{Education}  } \medskip \newline
+\noindent \centerline{\large \bf University of Puget Sound, Class of 2018 \hfill }
+\begin{itemize}
+  \item Pursuing Computer Science and Mathematics double major. 3.67 GPA, Dean's List
+
+\end{itemize}
+\end{document}
