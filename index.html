@@ -1,32 +1,105 @@
-<head>
-  <title>Sam Burdick</title>
-  <link rel="stylesheet" href="homepage.css">
-</head>
-<html>
-  <h1>Sam Burdick</h1>
-  <subhead>For every chance of failure, there's a chance for success</subhead>
-  <hr>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sam Burdick's Homepage">
+    <meta name="author" content="Sam Burdick">
+    <title>Sam Burdick</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+  </head>
+
   <body>
-    <img id="depth_test" src="img/DepthTest2.png" alt="Ray Tracer depth test">
-    <p>I like to make cool things happen, like producing colorful images out of measly text files, and for that sort of thing they call me a software developer.</p>
-    <a href="docs/resume.pdf">Résumé<a>
-    <br>
-    <a href="https://github.com/smburdick"><img id="logo_link" src="img/GitHub.png" alt="GitHub"></img></a>
-    <a href="https://www.linkedin.com/in/samuel-burdick-aba987119"><img id="logo_link" src="img/LinkedIn.png" alt="LinkedIn"></img></a>
-    <p>Contact: <a href="mailto:smburdick@pugetsound.edu">smburdick@pugetsound.edu</a></p>
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <a href="https://tmfsa.herokuapp.com/">AUTOMATA</a> creation application, with <a href="http://mathcs.pugetsound.edu/~tmullen/">Tony Mullen</a>
-      </li>
-      <li>
-        <a href="https://smburdick.github.io/threejs-raytracer/">Ray tracer</a> and extensions of my Computer Graphics final project.
-      </li>
-      <li>
-        <a href="https://github.com/smburdick/schedule-master">Schedule Master</a> Software Engineering final group project.
-      </li>
-    </ul>
-    <h2>About</h2>
-    <p1>Writing code may be hard, but at least when it starts to work, it's earned like it should be. Then anyone with an internet connection can immediately benefit from it, which is by itself rewarding. Math is also pretty hard, but when you're done you just got some symbols that only a handful of people would ever bother to understand. But we wouldn't have killer special effects and other important things without linear algebra, so I've taken it upon myself to understand both. That's why I'm studying computer science and mathematics at the <a href="http://pugetsound.edu/">University of Puget Sound</a>. I also know a little Japanese, and I've <a href="img/meiji-brighter.jpg">travelled around Japan a bit</a>.</p1> (That's the entrance to <a href="https://en.wikipedia.org/wiki/Meiji_Shrine">Meiji Shrine</a> in Tokyo.)
+    <div class="container">
+  <!--    <div class="header clearfix"> -->
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact </a>
+            </li>
+          </ul>
+          <h3 class="text-muted">Sam Burdick</h3>
+        </nav>
+      </div>
+
+
+  <!--    <div class="jumbotron">
+        <h1 class="display-3">Projects</h1>
+        <p class="lead">Hi there</p>
+        <div class="album text-muted">
+          <div class="container">
+            <div class="row">
+              <div class="card">
+                <img src="img/DepthTest2.png">
+                <p class="card-text">Example</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  -->
+    <div class="row marketing">
+      <div class="col-lg-6">
+        <h4><a name="projects"></a>Projects</h4>
+      </div>
+    </div>
+    <div>
+
+      <link href="album.css" rel="stylesheet">
+      <div class="album text-muted">
+        <div class="album text-muted">
+
+
+          <div class="container">
+
+            <div class="row">
+                <div class="card">
+                  <a href=""><img src="" alt="CandaceLogo">Candace Coffee</a>
+                  <p class="card-text">Data reporting for producers</p>
+                </div>
+                <div class="card">
+                  <a href="https://smburdick.github.io/threejs-raytracer/"><img src="img/DepthTest2.png">Ray Tracer</a>
+                  <p class="card-text">THREE.js application</p>
+                </div>
+                <div class="card">
+                  <a href="https://tmfsa.herokuapp.com/"><img src="img/fsa.png">AUTOMATA</a>
+                  <p>Online learning environment</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row marketing">
+       <div class="col-lg-6">
+         <h4 ><a name="about"></a>About</h4>
+         <p>
+           <a href="docs/resume.pdf">Résumé<a><br>
+           <a href="https://github.com/smburdick"><!--<img id="logo_link" src="img/GitHub.png" alt="GitHub"></img>-->GitHub</a><br>
+           <a href="https://www.linkedin.com/in/samuel-burdick-aba987119"><!--<img id="logo_link" src="img/LinkedIn.png" alt="LinkedIn"></img>-->LinkedIn</a>
+         </p>
+       </div>
+      </div>
+
+      <div class="row marketing">
+       <div class="col-lg-6">
+         <h4 name="contact"><a name="contact"></a>Contact</h4>
+         <p><a href="mailto:smburdick@pugetsound.edu">smburdick@pugetsound.edu</a></p>
+       </div>
+      </div>
+
+     </div>
+
+    </div>
+
+    <script src="narrow-jumbotron/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
