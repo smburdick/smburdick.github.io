@@ -3,54 +3,52 @@
 \usepackage{hyperref}
 \usepackage{color}
 \usepackage{charter}
-\topmargin=-0.4in
+\topmargin=-0.6in
 \oddsidemargin=-0in
 \evensidemargin=0in
-\textwidth=6.5in %How wide you want your text to be
+\usepackage[none]{hyphenat}
+\textwidth=6.5in
 \marginparwidth=0.5in
-\headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
-\headsep=0pt %Increase to increase white space in between headers and the top of the page
-\textheight=9.0in %How tall the text body is allowed to be on each page
+\headheight=0pt
+\headsep=0pt
+\textheight=9.0in
+%\usepackage[bottom=0.5in,top=0.5in]{geometry}
 \pagenumbering{gobble}
-\newcommand\phv{\fontfamily{phv}\selectfont}
+\usepackage[margin=0.7in]{geometry}
+\newcommand\phv{\fontfamily{bch}\selectfont}
 \newcommand\qcr{\fontfamily{qcr}\selectfont}
 \begin{document}
-% TODO: eliminate passive voice AMAP,
-\centerline{{\Huge \bf \phv{Sam Burdick}}}    % (want sc?)
+\centerline{{\Huge \bf \phv{Sam Burdick}}}
 \noindent\\
 \centerline{
 {\textcolor{blue}{\href{https://smburdick.github.io/}{Website}} \hspace{1.5pt} $|$ \hspace{1.5pt}
 \textcolor{blue}{\href{https://github.com/smburdick}{GitHub}}
 }}
 \centerline{{smburdick@pugetsound.edu}}
- % TODO: align links + email on one line?
+\centerline{18127 Miss Ellis Loop NE, Poulsbo, WA 98370 $|$ (425) 275-8685}
 %\centerline{1234 Generic St. \textbullet \hspace{5pt}   Boulder, CO 80303 \textbullet \hspace{5pt}   (555) 555-0198}
 % \\\noindent\line(1,0){470}
 \\\\
-\noindent {\LARGE \bf \phv{Summary}}   %Don’t indent this line and make it bold and large
-\medskip\\
-\noindent
-% \bigskip %This makes a large line-skip (\smallskip is also a command but has a smaller gap
-% \\
-% \noindent{\Large \bf Executive Summary}
-% \\\\
-% \smallskip
-% \noindent
-Upcoming graduate in Computer Science pursuing a strong mathematical foundation and practical development experience. My contributions to solving programming problems with teams and individuals make me a highly qualified software developer candidate. \\\\
-\smallskip
-\noindent{\LARGE \bf \phv{Work Experience} }  \medskip\\
+\noindent {\LARGE \bf \phv{\underline{Objective}}}
+\begin{itemize}
+\item Pursuing a challenging internship in software development where strong programming skills will be of service.
+\end{itemize}
+\vspace{0.4cm}
+\noindent{\LARGE \bf \phv{\underline{Work Experience}} }  \medskip\\
 \noindent \centerline{\large \bf Independent Contractor for Coffee Production Application and Company Website \hfill }
 \\
 \emph{ {\textcolor{blue}{\href{http://candacesoft.com}{Candace Software}}, Lynnwood, WA. Jun. 2016 - present}}
 \begin{itemize}
-  \item Co-developed an app that generates and displays data reports pertinent to coffee producers using Visual C\# and MySQL
-  \item Obtained software solutions with team members in Lynnwood and Addis Ababa for this coffee production technology startup
+  \item Co-developed an application that generates and displays data reports pertinent to coffee producers using Visual C\# and MySQL
+  \item Collaborated on software solutions with team members in Lynnwood and Addis Ababa for this coffee production technology startup
   \item Creating company webpage to help recruit new talent for the company
 \end{itemize}
-\noindent \centerline{\large \bf {\textcolor{blue}{\href{https://tmfsa.herokuapp.com/}{AUTOMATA}} Environment app development \hfill  }}
+\vspace{0.2cm}
+\noindent \centerline{\large \bf Application Developer for {\textcolor{blue}{\href {https://tmfsa.herokuapp.com/}{AUTOMATA}} online learning environment \hfill  }}
 \\\emph{Collaboration with \textcolor{blue}{\href{http://mathcs.pugetsound.edu/~tmullen/}{Professor Tony Mullen}}, Dec. 2016 - present}
 \begin{itemize}
-\item Implementing editing features to enhance the user experience of a hands-on automaton theory learning MEAN.js app
+\item Implementing editing features to enhance the user experience of a hands-on automaton theory learning MEAN.js application
+\vspace{0.2cm}
 % \item Gaining practice writing code to specifications
 \end{itemize}
 %\noindent \centerline{\large \bf Online {\textcolor{blue}{\href{https://smburdick.github.io/threejs-raytracer}{Ray Tracer}} \hfill }}
@@ -58,24 +56,25 @@ Upcoming graduate in Computer Science pursuing a strong mathematical foundation 
 %\begin{itemize}
 %	\item Created a ray tracer using THREE.js and implemented depth of field, soft shadows, and antialiasing features, aided by my linear algebra experience
 %\end{itemize}
-\noindent \centerline{\large \bf Intro to Computer Science Teaching Assistant \hfill }
+\noindent \centerline{\large \bf Teaching Assistant for Introduction to Computer Science \hfill }
 \\\emph{University of Puget Sound. Sept. 2016 - present}
 \begin{itemize}
-  \item I answer student questions in weekly lab sessions, grade Java assignments, and help solve programming problems in walk-in tutoring hours
-  \item Developed communication skills from interacting with students and coordinating with the instructor to ensure students' success in and satisfaction with the course
+  \item Answering student questions in weekly lab sessions, grading Java assignments, and helping solve programming problems in walk-in tutoring hours
+  \item Developing communication skills by interacting with students and coordinating with the instructor to ensure students' success in and satisfaction with the course
 \end{itemize}
-
+\vspace{0.2cm}
 % \noindent\centerline{\large\bf }
-\noindent \centerline{\large \bf ``Schedule Master'' web app development \hfill }
+\noindent \centerline{\large \bf Team Collaborator on ``Schedule Master'' web application \hfill }
 \\\emph{Software Engineering course group project. May 2016}
 \begin{itemize}
-  \item Created a MEAN.js app that helps students find their classes on campus
-  \item Designed and implemented the course info database and the user class selection interface
-  \item Gained leadership experience by providing UI design oversight and task prioritization when we weren't making deadlines
+  \item Created a MEAN.js application that helps students find their classes on campus
+  \item Designed and implemented the course information database and the user class selection interface
+  \item Gained leadership experience by providing UI design oversight and task prioritization
 \end{itemize}
-\noindent{\LARGE \bf \phv{Education \& Technology}  }
+\vspace{0.4cm}
+\noindent{\LARGE \bf \phv{\underline{{Education \& Technology} }} }
 \begin{itemize}
-  \item University of Puget Sound, Computer Science and Mathematics double major, 3.65 cum. GPA
+  \item University of Puget Sound, Computer Science and Mathematics double major, 3.65 cum. GPA, expected to graduate May 2018
   \item Proficient in Java, C\#, MySQL, JavaScript, HTML, CSS, Angular, Node
 \end{itemize}
 
