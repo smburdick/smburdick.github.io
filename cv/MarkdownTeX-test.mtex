@@ -1,7 +1,0 @@
-This is a Markdown $$ \TeX $$ test.
-
-The *gamma function* is defined as
-
-$$\begin{equation} \Gamma(z)=\int_0^\infty x^{z-1}e^{-x}dx, z\in\mathbb{Z}. \end{equation}$$ 
-
-$$ \binom{5}{2} $$
