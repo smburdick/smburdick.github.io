@@ -30,6 +30,7 @@ body {
   padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #f7f7f7;
+  display: table;
 }
 
 .card {
@@ -38,6 +39,8 @@ body {
   padding: .75rem;
   margin-bottom: 0rem;
   border: 0;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .card > img {
