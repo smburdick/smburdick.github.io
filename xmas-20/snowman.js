@@ -1,10 +1,10 @@
 
-		var container;
+var container;
 
-    var particle;
+var particle;
 
-    var camera;
-    var scene;
+var camera;
+var scene;
 var renderer;
 
 var shoulderRotation;
@@ -365,13 +365,13 @@ function createLights() {
     }
 
     var SCREEN_WIDTH = window.innerWidth;
-    var SCREEN_HEIGHT = window.innerHeight;
+    var SCREEN_HEIGHT = 0.87 * window.innerHeight;
 
     var mouseX = 0;
     var mouseY = 0;
 
-    var windowHalfX = window.innerWidth / 2;
-    var windowHalfY = window.innerHeight / 2;
+    var windowHalfX = SCREEN_WIDTH / 2;
+    var windowHalfY = SCREEN_HEIGHT / 2;
 
     var particles = [];
 
