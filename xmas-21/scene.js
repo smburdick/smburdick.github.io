@@ -62,7 +62,7 @@ var smGeo = new THREE.PlaneGeometry(100, 100, -00 );
 var smMesh = new THREE.Mesh(smGeo, snowman);
 
 // set the position of the image mesh in the x,y,z dimensions
-smMesh.position.set(100,-50,0)
+smMesh.position.set(100,-70,0)
 
 
 // add the image to the scene
@@ -76,7 +76,7 @@ quote.transparent = true;
 
 var quoteGeo = new THREE.PlaneGeometry(250, 50, 0);
 var quoteMesh  = new THREE.Mesh(quoteGeo, quote);
-quoteMesh.position.set(150,30,0);
+quoteMesh.position.set(200,-10,0);
 
 scene.add(quoteMesh);
 
@@ -99,20 +99,22 @@ lottieMesh.position.set(-100,-80,0)
 scene.add(lottieMesh);
 
 var lottieQuoteMesh = new THREE.MeshBasicMaterial({
-    map: loader.load("img/merry-xmas.png"),
+    map: loader.load("img/speech.png"),
 })
-//lottieQuoteMesh.transparent = true;
-//lottieQuoteMesh.side = THREE.DoubleSide;
+lottieQuoteMesh.transparent = true;
 
-var lottieQuoteGeo = new THREE.PlaneGeometry(200, 50, 0);
+var lottieQuoteGeo = new THREE.PlaneGeometry(200, 100, 0);
+
 var lottieQuoteMesh = new THREE.Mesh(lottieQuoteGeo, lottieQuoteMesh);
-lottieQuoteMesh.position.set(-150,0,50);
 
-// scene.add(lottieQuoteMesh);
+lottieQuoteMesh.position.set(-200,-20,0);
+
+scene.add(lottieQuoteMesh);
 
 var snow = new THREE.Group();
 
 scene.fog = new THREE.FogExp2(2237993,.0015);
+
 var x = 0, y = 0;
 function addBranch(count, x, y, z, opts) {
     var points2 = [], l;
