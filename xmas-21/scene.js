@@ -71,8 +71,8 @@ scene.add(smMesh);
 var quote = new THREE.MeshBasicMaterial({
     map: loader.load("img/booster.png"),
 })
-//quote.transparent = true;
-//quote.side = THREE.DoubleSide;
+quote.side = THREE.DoubleSide;
+quote.transparent = true;
 
 var quoteGeo = new THREE.PlaneGeometry(250, 50, 0);
 var quoteMesh  = new THREE.Mesh(quoteGeo, quote);
@@ -101,13 +101,14 @@ scene.add(lottieMesh);
 var lottieQuoteMesh = new THREE.MeshBasicMaterial({
     map: loader.load("img/merry-xmas.png"),
 })
-lottieQuoteMesh.opacity = 1
+//lottieQuoteMesh.transparent = true;
+//lottieQuoteMesh.side = THREE.DoubleSide;
 
 var lottieQuoteGeo = new THREE.PlaneGeometry(200, 50, 0);
 var lottieQuoteMesh = new THREE.Mesh(lottieQuoteGeo, lottieQuoteMesh);
 lottieQuoteMesh.position.set(-150,0,50);
 
-scene.add(lottieQuoteMesh);
+// scene.add(lottieQuoteMesh);
 
 var snow = new THREE.Group();
 
